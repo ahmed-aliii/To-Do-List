@@ -13,6 +13,7 @@ It allows users to manage their tasks with categories and priorities, and persis
 - Filter tasks by **priority** or **category**
 - Organize tasks into **categories**
 - Save and load tasks from a **`.txt` file**
+- Save and load tasks from a **JSON file**
 - Built with **Object-Oriented Programming (OOP)** and **SOLID principles**
 - Clean code structure and maintainable design
 
