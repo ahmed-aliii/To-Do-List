@@ -17,7 +17,9 @@ It allows users to manage their tasks with categories and priorities, and persis
 - Built with **Object-Oriented Programming (OOP)** and **SOLID principles**
 - Clean code structure and maintainable design
 
-- Class Diagram
+
+
+## Class Diagram
 
 ![To-Do-List-UML](https://github.com/user-attachments/assets/834b021a-6696-4f27-899c-300cda4b3284)
 
