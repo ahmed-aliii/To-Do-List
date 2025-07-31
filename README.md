@@ -18,3 +18,7 @@ It allows users to manage their tasks with categories and priorities, and persis
 - Clean code structure and maintainable design
 
 
+![To-Do-List-UML](https://github.com/user-attachments/assets/834b021a-6696-4f27-899c-300cda4b3284)
+
+
+
