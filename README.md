@@ -21,7 +21,8 @@ It allows users to manage their tasks with categories and priorities, and persis
 
 ## Class Diagram
 
-![To-Do-List-UML](https://github.com/user-attachments/assets/834b021a-6696-4f27-899c-300cda4b3284)
+![To-Do-List-UML](https://github.com/user-attachments/assets/e2fa5777-3c1e-453c-8a2e-4b7f774d52ac)
+
 
 
 
