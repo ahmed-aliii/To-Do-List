@@ -44,24 +44,22 @@ namespace ConsoleApp1.Services
 
         public void SaveAsText()
         {
-            //make sure the file exists
+           //make sure the file exists
             if (!File.Exists(textFilePath))
             {
                 Console.WriteLine("create new file");
                 //create the file
                 File.WriteAllLines(textFilePath ,new string[0]);
             }
+            
+            //Clear the text file before writing new tasks
+            File.WriteAllLines(textFilePath, new string[0]);
+            
             // Write each task to the text file
-            foreach(var task in user.Tasks)
+            foreach (var task in user.Tasks)
             {
                 // Append the task to the text file
-                File.Delete(textFilePath); // Clear the file before writing
-
-                // Create a new file 
-                File.WriteAllLines(textFilePath, new string[0]);
-
-                // Append the task to the text file
-                File.AppendAllText(textFilePath, task.ToString());
+                File.AppendAllText(textFilePath, task.ToString() + "\n");
             }
         }
     }
